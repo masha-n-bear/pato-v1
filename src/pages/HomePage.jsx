@@ -202,7 +202,7 @@ export default function HomePage() {
     if (district) params.set("district", district);
     if (priceRange) params.set("price", priceRange);
     if (cuisine) params.set("cuisine", cuisine);
-    navigate(`/collections?${params.toString()}`);
+    navigate(`/search?${params.toString()}`);
   }
 
   return (
