@@ -22,7 +22,7 @@ const useStore = create((set, get) => ({
       colRes.json(),
     ]);
     set({
-      restaurants: restaurants.filter((r) => r.status === "Đã hợp tác"),
+      restaurants: restaurants,
       locations,
       collections,
       loaded: true,
